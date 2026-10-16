@@ -3,7 +3,7 @@ package HCL_Assessment_2_CoreJava_2300321530082_Harsh_Teotia;
 import java.util.*;
 
 import HCL_Assessment_2_CoreJava_2300321530082_Harsh_Teotia.LIbraryItemsManagement.LibraryManager;
-public class Library extends LibraryItem {
+public class Library extends LibraryManager {
     static void main(){
         Scanner sc = new Scanner(System.in);
         System.out.println("------------------------Library Management System---------------------------");
@@ -18,7 +18,7 @@ public class Library extends LibraryItem {
             int option = sc.nextInt();
             switch (option) {
                 case 1:
-                    LibraryItem admin = new Library();
+                    // LibraryItem admin = new Library();
                     System.out.println("Enter the book id:");
                     int id = sc.nextInt();
                     System.out.println("Enter the book name:");
@@ -26,7 +26,7 @@ public class Library extends LibraryItem {
                     sc.nextLine();
                     System.out.println("Enter the book count:");
                     int countOfBooks = sc.nextInt();
-                    admin.addbooks(id, );
+                    // admin.addbooks(id, );
                     break;
                 case 2:{
                     
